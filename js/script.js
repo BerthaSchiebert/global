@@ -19,6 +19,14 @@ $(document).ready(function(){
 		$(".sandwich").toggleClass("active");
 	});
 
+	$(".btn").click(function(){
+		$(".gallery-hidden").show(300);
+	});
+
+	$(".btn2").click(function(){
+		$(".sec-2-hidden").show(300);
+	});
+
 });
 
 function toggleCP() {

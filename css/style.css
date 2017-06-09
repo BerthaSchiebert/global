@@ -347,6 +347,7 @@ h2.title:before{
 	padding-left: 30px;
 	background: #fafafa url(../img/bg_main.jpg) no-repeat;
 	padding-right: 15px;
+	padding-bottom: 70px;
 }
 .sec-6-wrap{
 	padding-top: 20px;
@@ -405,18 +406,18 @@ h2.title:before{
 .owl2 .owl-next:hover{
 	background: url(../img/arrow-right-hover.png) no-repeat;
 }
-.owl-dots{
+.owl2 .owl-dots{
 	margin-top: 20px;
 	text-align: center;
 }
-.owl-dot{
+.owl2 .owl-dot{
 	width: 14px;
 	height: 14px;
 	background: #d7d7d7;
 	display: inline-block;
 	margin-right: 2px;
 }
-.owl-dot.active{
+.owl2 .owl-dot.active{
 	background: #fa2625;
 }
 .sec-4-text p span{
@@ -431,7 +432,8 @@ h2.title:before{
 .sec-4-item{
 	width: 270px;
 	height: 370px;
-	float: left;
+	display: inline-block;
+	vertical-align: top;
 	margin-right: 10px;
 	margin-bottom: 10px;
 }
@@ -468,9 +470,6 @@ h2.title:before{
 	padding: 0;
 	display: block;
 	margin: 10px auto 0;
-}
-.korpus{
-	height: 560px;
 }
 .korpus > div,
 .korpus > input{
@@ -526,6 +525,7 @@ h2.title:before{
 	padding: 15px;
 	position: relative;
 	cursor: pointer;
+	margin-top: 4px;
 }
 .sec-6-top:after{
 	position: absolute;
@@ -588,6 +588,7 @@ h2.title:before{
 	display: inline-block;
 	vertical-align: top;
 	margin-right: 30px;
+	text-align: left;
 }
 .copy{
 	float: left;
@@ -713,4 +714,14 @@ h2.title:before{
 }
 .top-menu-s ul li{
 	padding: 10px;
+}
+.gallery-hidden{
+	display: none;
+}
+.sec-2-hidden{
+	display: none;
+}
+.footer-menu-wrap{
+	display: inline-block;
+	vertical-align: top;
 }
