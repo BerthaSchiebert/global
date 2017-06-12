@@ -222,7 +222,6 @@ p{
 	width: 285px;
 	background: #d5d5d5;
 	display: inline-block;
-	padding-bottom: 100%;
 	margin-right: -4px;
 }
 .right{
@@ -267,7 +266,7 @@ h2.title:before{
 .left-item{
 	font-size: 18px;
 	line-height: 21px;
-	padding: 25px 10px 25px 15px;
+	padding: 37px 10px;
 	border-bottom: 1px solid #bfbfbf;
 }
 .left-item p{
@@ -735,9 +734,11 @@ h2.title:before{
 }
 .gallery-hidden{
 	display: none;
+	text-align: center;
 }
 .sec-2-hidden{
 	display: none;
+	text-align: center;
 }
 .footer-menu-wrap{
 	display: inline-block;
