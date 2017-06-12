@@ -13,6 +13,7 @@ $(document).ready(function(){
 
 	$(".sec-6-item").click(function(){
 		$(this).find(".sec-6-text").slideToggle(300);
+		$(this).find(".sec-6-top").toggleClass("btn-down");
 	});
 
 	$(".toggle_mnu").click(function() {

@@ -80,17 +80,16 @@
 	.right{
 		width: 600px;
 	}
-	.sec-4-wrap{
-		text-align: center;
-	}
 	.korpus label{
 		margin-right: 0;
 		padding: 5px 11px;
 	}
-}
-@media only screen and (max-width : 900px) {
 	.right{
-		width: 500px;
+		width: 100%;
+	}
+	.left{
+		width: 100%;
+		padding-bottom: 0;
 	}
 }
 @media only screen and (max-width : 815px) {
@@ -105,9 +104,6 @@
 	}
 	.footer-menu{
 		margin-top: 30px;
-	}
-	.left{
-		width: 230px;
 	}
 	
 }
