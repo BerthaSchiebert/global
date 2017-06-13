@@ -10,6 +10,10 @@ a{
 	font-family: "Museo Sans Cyrl 500";
 	font-size: 16px;
 	text-decoration: none;
+	outline: none;
+}
+button{
+	outline: none;
 }
 p{
 	margin: 0;
@@ -78,6 +82,16 @@ p{
 .phone p span{
 	font-family: "Museo Sans Cyrl 700";
 	font-size: 21px;
+}
+.btn-popup{
+	text-transform: uppercase;
+	font-family: "Museo Sans Cyrl 500";
+	border: 3px solid #fa2625;
+	background-color: transparent;
+	padding: 10px 15px;
+	width: 200px;
+	height: 52px;
+	cursor: pointer;
 }
 .btn{
 	text-transform: uppercase;
@@ -743,4 +757,39 @@ h2.title:before{
 .footer-menu-wrap{
 	display: inline-block;
 	vertical-align: top;
+}
+.hidden{
+	display: none;
+}
+#popup-block{
+	background: #fff;
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 40px 60px 40px 40px;
+    position: relative;
+}
+.popup-form input[type="text"]{
+	display: block;
+    margin-bottom: 20px;
+    width: 374px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+    font-family: "Museo Sans Cyrl 300";
+    font-size: 16px;
+
+}
+.popup-form input[type="submit"]{
+	display: block;
+	width: 100%;
+	text-transform: uppercase;
+	font-family: "Museo Sans Cyrl 500";
+	border: 3px solid #fa2625;
+	background-color: transparent;
+	padding: 10px 15px;
+	cursor: pointer;
+	font-size: 16px;
+	margin-top: 40px;
+	outline: none;
 }

@@ -24,7 +24,18 @@
 					<p>+ 7 967 101 17 09</p>
 				</div>
 				<div class="btn-wrap">
-					<button class="btn">заказать звонок</button>
+					<a href="#popup-block" class="btn-popup">заказать звонок</a>
+				</div>
+				<div class="hidden">
+					<div id="popup-block">
+						<form method="POST" action="" class="popup-form">
+							<input type="text" placeholder="Имя" name="name">
+							<input type="text" placeholder="Телефон" name="phone">
+							<input type="text" placeholder="Email" name="email">
+							<input type="text" placeholder="Информайия о заказе" name="info">
+							<input type="submit" placeholder="Отправить">
+						</form>
+					</div>
 				</div>
 				<div class="language">
 					<a href="#" class="rus active">rus</a>
