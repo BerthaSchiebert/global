@@ -38,8 +38,19 @@ function toggleCP() {
 	var cp = document.getElementById("cp");
 	cp.style.height = window.innerHeight - 0+"px";
 	if(cp.style.left == "0px"){
-		cp.style.left = "-320px";
+		cp.style.left = "-220px";
 	} else {
 		cp.style.left = "0px";
 	}
 }
+
+$(window).scroll(function(){
+
+	if($(this).scrollTop() >= 300){
+		$(".top-menu2").addClass("header-visible");
+	}
+	else{
+		$(".top-menu2").removeClass("header-visible");
+	}
+
+});

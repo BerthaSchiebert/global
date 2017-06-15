@@ -1,5 +1,10 @@
 /*==========  Desktop First Method  ==========*/
 
+@media only screen and (max-width : 1230px) {
+	.top-menu2 ul li a{
+		padding: 10px 21px;
+	}
+}
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 	.top-menu ul li a{
@@ -39,8 +44,19 @@
 		text-align: center;
 		margin-right: 30px;
 	}
+	.top-menu2{
+		width: 100%;
+	}
+	.top-menu2 ul li a{
+		padding: 10px 16px;
+	}
 }
-
+@media only screen and (max-width : 1120px) {
+	.top-menu2 ul li a{
+		font-size: 12px;
+		padding: 10px 13px;
+	}
+}
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 	.top-menu{
@@ -90,6 +106,25 @@
 	.left{
 		width: 100%;
 		padding-bottom: 0;
+	}
+	.top-menu2{
+		text-align: center;
+		width: 100%;
+	}
+	.top-menu2 ul{
+		display: none;
+	}
+	.toggle_mnu{
+		display: inline-block;
+	}
+	.top-menu2 .logo2{
+		float: left;
+		width: 150px;
+		margin-top: 10px;
+		margin-left: 20px;
+	}
+	.top-menu2 .phone{
+		float: right;
 	}
 }
 @media only screen and (max-width : 815px) {
